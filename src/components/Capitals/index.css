@@ -1,0 +1,40 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.insideContainer {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 50%;
+  height: 45%;
+  text-align: center;
+  padding: 15px;
+}
+.heading {
+  color: #000000;
+}
+
+.selectItem {
+  padding: 4px;
+}
+.span {
+  margin: 8px;
+  font-size: 15px;
+}
+@media (max-width: 576px) {
+  .insideContainer {
+    width: 90%;
+    height: 25%;
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #93c5fd;
+    height: 100vh;
+  }
+}
